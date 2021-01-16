@@ -28,7 +28,7 @@ public class Manager extends User {
         // 余数，零头
         int mod = totalMoney % count;
         // 一个一个放到集合中
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < count - 1; i++) {
             redList.add(avg);
         }
 
